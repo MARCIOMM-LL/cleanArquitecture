@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\Arquitetura;
+namespace Alura\Arquitetura\Dominio;
 
 class CPF
 {
@@ -29,5 +29,8 @@ class CPF
         $this->numero = $numero;
     }
 
-    
+    public function __toString(): string
+    {
+        return $this->numero;
+    }
 }
