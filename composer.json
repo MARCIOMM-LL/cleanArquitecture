@@ -1,7 +1,7 @@
 {
     "autoload": {
         "psr-4": {
-            "Alura\\Arquitetura\\": "src/"
+            "src\\Arquitetura\\": "src/"
         }
     }
 }
